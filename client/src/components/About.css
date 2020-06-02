@@ -1,0 +1,30 @@
+.about {
+    display: block;
+    align-items: center;
+    max-width: 800px;
+    overflow: auto;
+    height: auto;
+    margin: 4rem auto;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.25px;
+}
+
+.itsme {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.picture img {
+    float: left;
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 0 24px 0 0; 
+}
+
+.blurb {
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+}
