@@ -7,6 +7,7 @@
     margin: 4rem auto;
     font-family: "Lato", sans-serif;
     letter-spacing: 0.25px;
+    padding: 0 16px 0 16px;
 }
 
 .itsme {
@@ -27,4 +28,41 @@
     float: right;
     font-size: 20px;
     font-weight: 600;
+}
+
+@media screen and (max-width:800px) {
+    .about {
+        text-align: center;
+        margin: 24px auto;
+    }
+
+    .itsme {
+        display: block;
+        margin-bottom: 12px;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .picture {
+        display: flex;
+        margin: auto;
+    }
+
+    .picture img {
+        max-width: 200px;
+        border-radius: 50%;
+        margin: 0 auto 16px auto; 
+    }
+
+    .blurb {
+        font-size: 20px;
+    }
+
+    .blurb p {
+        margin: 0;
+    }
+
+    .intro {
+        font-size: 16px;
+    }
 }

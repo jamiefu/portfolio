@@ -14,7 +14,7 @@ class About extends Component {
                     <p>
                         Hi, I'm Jamie! I'm a rising sophomore studying Computer Science and Finance at MIT on the lookout 
                         for new experiences and skills. 
-                        I'm always ponderering about ways to make real and positive differences in the lives of people around me, 
+                        I'm always pondering about ways to make real and positive differences in the lives of people around me, 
                         and about what it means to be happy.
                     </p>
                 </div>
@@ -24,11 +24,11 @@ class About extends Component {
                     <p> 
                         This summer I'm working with Prof. Max Tegmark to detect news bias with natural language processing (NLP) 
                         and continuing my work with Camera Culture at the MIT Media Lab on the split learning ML methodology. 
-                        I'll also be working on some startups with friends, along with some of my own personal projects, so be on the lookout for those! 
+                        I'll also be working on some startups with friends, along with some of my own personal projects. 
                     </p>
                     <p>
-                        I'm always willing to talk about all things machine learning, but these days I'm also interested in exploring and learning 
-                        more about consulting and trading. I've been trying to read and write more as well, to better understand my role 
+                        I'm an avid explorer of machine learning, but I'm also interested in diving deeper into the fields of
+                        consulting and trading. I've been trying to read and write more lately, to better understand my role 
                         in today's ever-evolving society. 
                     </p>
                     <p>

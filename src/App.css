@@ -89,9 +89,9 @@ nav ul li a {
   opacity: 0.5;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
   .me {
-    padding: 0;
+    padding: 5px 0 0 5px;
   }
   .nav-wrapper {
     position: fixed;
@@ -143,9 +143,9 @@ nav ul li a {
     transition: all 0.2s ease;
   }
   .nav-btn {
-    position: fixed;
-    right: 10px;
-    top: 10px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
     display: block;
     width: 48px;
     height: 48px;
