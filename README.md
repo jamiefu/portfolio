@@ -1,3 +1,6 @@
+# Portfolio
+A work in progress, but should include all the important t h i n g s about me. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
