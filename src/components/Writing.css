@@ -1,0 +1,31 @@
+.writing {
+    display: block;
+    align-items: center;
+    max-width: 800px;
+    overflow: auto;
+    height: auto;
+    margin: 1rem auto 0 auto;
+    padding: 0 16px 0 16px;
+}
+
+#writing-title {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.25px;
+    line-height: normal;
+}
+
+#medium-widget {
+    margin: 2rem auto;
+    padding: 0 16px;
+    max-width: 800px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: teal;
+}

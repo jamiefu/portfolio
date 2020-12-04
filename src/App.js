@@ -9,6 +9,7 @@ import {
 import './App.css';
 
 import About from "./components/About.js"
+import Writing from "./components/Writing.js"
 
 class App extends Component {
   constructor(props) {
@@ -28,7 +29,7 @@ class App extends Component {
             <Doings />
           </Route>
           <Route path="/peculiarities">
-            <Pecularities />
+            <Peculiarities />
           </Route>
           <Route path="/">
             <About />
@@ -57,23 +58,13 @@ class Menu extends Component {
             <ul>
               <li><a href="/doings">Doing & Dones</a></li>
               <li><a href="/writing">Writing</a></li>
-              <li><a href="/peculiarities">Pecularities</a></li>
+              <li><a href="/peculiarities">Peculiarities</a></li>
             </ul>
           </div>
         </nav>
       </div>
     );
   }
-}
-
-
-
-function Writing() {
-  return (
-    <div>
-      Writing
-    </div>
-  );
 }
 
 function Doings() {
@@ -84,7 +75,7 @@ function Doings() {
   );
 }
 
-function Pecularities() {
+function Peculiarities() {
   return (
     <div>
       Pecularities

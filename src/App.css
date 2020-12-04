@@ -52,7 +52,7 @@ nav {
   color: #000;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1.2px;
   font-weight: 550;
 }
@@ -64,6 +64,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   float: left;
+  vertical-align: bottom;
 }
 
 nav ul li:not(:first-child) {

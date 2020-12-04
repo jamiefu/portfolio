@@ -7,40 +7,37 @@
     margin: 4rem auto;
     font-family: "Lato", sans-serif;
     letter-spacing: 0.25px;
+    line-height: normal;
     padding: 0 16px 0 16px;
 }
 
-.itsme {
+.picture {
     display: flex;
-    align-items: center;
-    margin-bottom: 24px;
-    width: 100%;
+    margin: auto;
 }
 
 .picture img {
-    float: left;
-    max-width: 150px;
+    max-width: 200px;
     border-radius: 50%;
-    margin: 0 24px 0 0; 
+    margin: 0 auto 16px auto; 
 }
 
 .blurb {
-    float: right;
+    margin: 20px auto;
+    text-align: center;
     font-size: 20px;
     font-weight: 600;
+}
+
+.intro {
+    margin: 2rem auto;
+    line-height: 1.4;
 }
 
 @media screen and (max-width:800px) {
     .about {
         text-align: center;
         margin: 24px auto;
-    }
-
-    .itsme {
-        display: block;
-        margin-bottom: 12px;
-        width: 100%;
-        overflow: auto;
     }
 
     .picture {
